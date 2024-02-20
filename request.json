@@ -1,0 +1,66 @@
+{
+    "PageNumber": 1,
+    "SortField": "actionDate",
+    "SortAscending": true,
+    "GroupSortField": "",
+    "GroupSortAscending": true,
+    "DisplayedProperties": [
+        "type",
+        "taskStatus",
+        "orderId",
+        "orderstatus",
+        "salesperson",
+        "actionCode",
+        "actionDate",
+        "clientName",
+        "orgName",
+        "officeName",
+        "specialCode"
+    ],
+    "FilterItems": [
+        {
+            "FieldId": "start_date",
+            "Negate": false,
+            "Condition": 2,
+            "Criteria1": "2023-11-20",
+            "Criteria2": "2023-12-31"
+        },
+        {
+            "FieldId": "office_id",
+            "Negate": false,
+            "Condition": 0,
+            "Criteria1": [
+                453
+            ]
+        },
+        {
+            "FieldId": "job_type_id",
+            "Negate": false,
+            "Condition": 0,
+            "Criteria1": [
+                10,
+                1,
+                4,
+                5,
+                6,
+                7,
+                2,
+                15,
+                17,
+                16
+            ]
+        },
+        {
+            "FieldId": "OrderStatus",
+            "Negate": false,
+            "Condition": 0,
+            "Criteria1": "Active,Quote Only,Option,Tentative,Invoiced,Accounting"
+        },
+        {
+            "FieldId": "action_code",
+            "Negate": false,
+            "Condition": 0,
+            "Criteria1": "Guaranteed Arrival,Rental Start - Arrival"
+        }
+    ]
+}
