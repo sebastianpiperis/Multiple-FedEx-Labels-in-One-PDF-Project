@@ -33,11 +33,11 @@ def upload_pdf_to_intellievent(file_path, token):
 
 if __name__ == "__main__":
 
-    TOKEN_FILE = r'C:\Users\sebas\OneDrive\Documents\LabeltoPDF\TOKEN.TXT'
+    TOKEN_FILE = r'C:\Users\LabeltoPDF\TOKEN.TXT'
     token = get_token(TOKEN_FILE)
 
     # Define the ZPL folder path
-    zpl_folder_path = r'C:\Users\sebas\OneDrive\Documents\LabeltoPDF\ZPLfiles\252949'
+    zpl_folder_path = r'C:\Users\LabeltoPDF\ZPLfiles\252949'
 
     # Use multiplePDF to merge ZPL files into a PDF and get the path of the merged PDF
     merged_pdf_path = multiplePDF.merge_zpl_to_pdf(zpl_folder_path)
