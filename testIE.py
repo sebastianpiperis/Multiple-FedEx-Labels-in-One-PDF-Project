@@ -28,7 +28,7 @@ def update_token(filename, headers):
 
 # Constants
 URL = "https://webapi1.ielightning.net/api/v1/Reports/Custom/C2RCustomTaskReport/List"
-TOKEN_FILE = r'C:\Users\sebas\OneDrive\Documents\LabeltoPDF\TOKEN.TXT'
+TOKEN_FILE = r'C:\Users\LabeltoPDF\TOKEN.TXT'
 JSON_DATA_FILE = 'request.json'
 MAX_RETRIES = 1
 
