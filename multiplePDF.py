@@ -31,7 +31,7 @@ def merge_zpl_to_pdf(zpl_folder_path):
     # Extract the job number (folder name) from the ZPL folder path
     job_number = os.path.basename(zpl_folder_path)
 
-    base_directory = r'C:\Users\sebas\OneDrive\Documents\LabeltoPDF\files'
+    base_directory = r'C:\Users\\LabeltoPDF\files'
     output_directory = os.path.join(base_directory, job_number)
 
     # Create the base directory if it doesn't exist
