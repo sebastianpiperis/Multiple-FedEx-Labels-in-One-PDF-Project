@@ -63,6 +63,6 @@ def merge_zpl_to_pdf(zpl_folder_path):
     return output_pdf_path
 
 if __name__ == "__main__":
-    zpl_folder_path = r'C:\Users\sebas\OneDrive\Documents\LabeltoPDF\ZPLfiles\252949'
+    zpl_folder_path = r'C:\Users\ZPLfiles\252949'
     output_pdf_path = merge_zpl_to_pdf(zpl_folder_path)
     print(f"Merged PDF saved to {output_pdf_path}")
